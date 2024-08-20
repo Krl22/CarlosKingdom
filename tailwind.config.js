@@ -21,5 +21,5 @@ export default {
     },
   },
   darkMode: "class", // Habilitar dark mode basado en clases
-  plugins: [],
+  plugins: [require("daisyui")],
 };
