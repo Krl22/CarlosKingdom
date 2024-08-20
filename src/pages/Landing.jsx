@@ -7,44 +7,44 @@ import Hyperspeed from "../bitsUI/Hyperspeed";
 import { hyperspeedPresets } from "../bitsUI/hyperspeedPresets";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import ShinyText from "../bitsUI/ShinyText";
+import ss1 from "../assets/ss1.png";
 
 const projects = [
   {
     title: "Analyst Chatbot",
     description:
       "AI integration with Data analysis. Upload a csv table and try data analysis with AI",
-    image: "https://via.placeholder.com/400x250",
+    image:
+      "https://images.treasuryandrisk.com/cdn-cgi/image/format=auto,fit=contain/https://images.treasuryandrisk.com/contrib/content/uploads/sites/411/2022/11/2022-11-17-AI-data-analysis.png",
     demoLink: "#",
     codeLink: "#",
   },
   {
-    title: "Project Two",
+    title: "English Learning",
     description:
-      "An overview of project two showcasing some cool features and technologies used.",
-    image: "https://via.placeholder.com/400x250",
+      "A platform where you can learn english through games and challenges.",
+    image: ss1,
     demoLink: "#",
     codeLink: "#",
   },
   {
-    title: "Project Three",
-    description:
-      "A brief look at project three, including its challenges and solutions.",
-    image: "https://via.placeholder.com/400x250",
+    title: "Web Scrapping",
+    description: "get useful data from a website.",
+    image: "https://i.imgur.com/6zM7JBq.png",
     demoLink: "#",
     codeLink: "#",
   },
   {
-    title: "Project Four",
-    description:
-      "Details about project four, emphasizing its unique aspects and functionality.",
-    image: "https://via.placeholder.com/400x250",
+    title: "Game",
+    description: "Multiplayer online game.",
+    image:
+      "https://www.algoworks.com/wp-content/uploads/2020/11/game-development-company.png",
     demoLink: "#",
     codeLink: "#",
   },
   {
-    title: "Project Five",
-    description:
-      "Insights into project five, focusing on its impact and technological stack.",
+    title: "Data Analysis",
+    description: "Data Analysis project.",
     image: "https://via.placeholder.com/400x250",
     demoLink: "#",
     codeLink: "#",
@@ -79,7 +79,7 @@ const Landing = () => {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="relative overflow-hidden transition-shadow duration-300 transform bg-gray-800 rounded-lg shadow-lg dark:bg-gray-900 hover:shadow-xl hover:scale-105"
+                className="relative overflow-hidden transition-shadow duration-300 transform bg-gray-800 rounded-lg shadow-lg pointer-events-auto dark:bg-gray-900 hover:shadow-xl hover:scale-105"
               >
                 <img
                   src={project.image}
