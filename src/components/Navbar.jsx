@@ -38,15 +38,15 @@ const Navbar = () => {
               colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
               animationSpeed={3}
               showBorder={false}
-              className="custom-class"
+              className="text-3xl custom-class"
             >
-              My Portfolio
+              Carlos Villar
             </GradientText>
           </Link>
         </div>
 
         {/* Desktop Menu */}
-        <div className="items-center hidden space-x-8 md:flex">
+        <div className="items-center hidden space-x-8 text-2xl md:flex">
           <Link
             to="home"
             smooth={true}
